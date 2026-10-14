@@ -1,8 +1,8 @@
-#CSE 425 Assignment 2
+# CSE 425 Assignment 2
 
 The following excerpt (log_provided.txt) was taken from the web server access log of a fictional course registration website on 10/8/2026. All hosts, IP addresses, and requests are synthetic. The internal campus network uses the 10.0.0.0/8 address range; all other addresses are external. Each line has the format: 
  
-<line> <time> <source IP> "<method> <URI>" <HTTP status> "<User-Agent>" 
+"<line> <time> <source IP> "<method> <URI>" <HTTP status> "<User-Agent>""
 
 You can use AI (Gemini or others) to analyze the log and learn about the underlying attacks. Ask AI to write a program (Python is recommended) that reads the log and reports every line it considers a SQL injection (SQLi) attempt or part of a denial-of-service (DoS) attack, together with the reason for each alert. 
 
