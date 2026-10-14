@@ -1,0 +1,21 @@
+Line   | Attack Type              | Reason
+-------------------------------------------------------------------------------------
+L04    | SQL Injection (SQLi)     | URI Payload: Authentication bypass attempt using single quote and comment operator ('--)
+L05    | SQL Injection (SQLi)     | URI Payload: UNION-based SQL injection attempt to exfiltrate database records
+L07    | SQL Injection (SQLi)     | URI Payload: UNION-based SQL injection attempt to exfiltrate database records
+L08    | SQL Injection (SQLi)     | URI Payload: Stacked query SQL injection attempting table deletion (DROP TABLE)
+L09    | SQL Injection (SQLi)     | Header Injection: Boolean-based SQL injection (' OR '1'='1) injected into HTTP header
+L10    | SQL Injection (SQLi)     | URI Payload: Time-based blind SQL injection using SLEEP() delay function
+L14    | Denial of Service (DoS)  | HTTP Flood Attack: High-frequency automated request burst causing server overload (HTTP Status: 200)
+L15    | Denial of Service (DoS)  | HTTP Flood Attack: High-frequency automated request burst causing server overload (HTTP Status: 200)
+L16    | Denial of Service (DoS)  | HTTP Flood Attack: High-frequency automated request burst causing server overload (HTTP Status: 200)
+L17    | Denial of Service (DoS)  | HTTP Flood Attack: High-frequency automated request burst causing server overload (HTTP Status: 200)
+L18    | Denial of Service (DoS)  | HTTP Flood Attack: High-frequency automated request burst causing server overload (HTTP Status: 503)
+L19    | Denial of Service (DoS)  | HTTP Flood Attack: High-frequency automated request burst causing server overload (HTTP Status: 503)
+L20    | Denial of Service (DoS)  | HTTP Flood Attack: High-frequency automated request burst causing server overload (HTTP Status: 503)
+L22    | Denial of Service (DoS)  | HTTP Flood Attack: High-frequency automated request burst causing server overload (HTTP Status: 503)
+L23    | Denial of Service (DoS)  | Slowloris Attack: Connection held open with incomplete request headers, resulting in 408 Request Timeout
+L24    | Denial of Service (DoS)  | Slowloris Attack: Connection held open with incomplete request headers, resulting in 408 Request Timeout
+L25    | Denial of Service (DoS)  | Slowloris Attack: Connection held open with incomplete request headers, resulting in 408 Request Timeout
+L26    | Denial of Service (DoS)  | Slowloris Attack: Connection held open with incomplete request headers, resulting in 408 Request Timeout
+Found 18 alerts in log_provided.txt
