@@ -1,6 +1,5 @@
 L01 14:02:11 10.0.4.17 "GET /index.html" 200 "Mozilla/5.0 (Windows NT 10.0)"
-L02 14:02:15 10.0.4.17 "GET /search.php?q=network+security" 200 "Mozilla/5.0 (Windows NT
-10.0)"
+L02 14:02:15 10.0.4.17 "GET /search.php?q=network+security" 200 "Mozilla/5.0 (Windows NT 10.0)"
 L03 14:02:20 10.0.7.33 "GET /directory.php?last=O%27Brien" 200 "Mozilla/5.0 (Macintosh)"
 L04 14:02:31 198.51.100.23 "GET /login.php?user=admin%27--&pw=x" 302 "pythonrequests/2.31"
 L05 14:02:40 198.51.100.23 "GET /item.php?id=7%20UNION%20SELECT%20name,pw%20FROM%20users" 200 "python-requests/2.31"
